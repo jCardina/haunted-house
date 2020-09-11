@@ -12,13 +12,13 @@
       var unityInstance = UnityLoader.instantiate("unityContainer", "Build/haunted-house.json", {onProgress: UnityProgress});
     </script>
   </head>
-  <body>
+  <body style="background-color: #000000">
     <div class="webgl-content">
       <div id="unityContainer" style="width: 960px; height: 600px"></div>
       <div class="footer">
-        <div class="webgl-logo"></div>
+        <div class="webgl-logo" style="background-color: #FFFFFF"></div>
         <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
-        <div class="title">John Lemon’s Haunted Jaunt</div>
+        <div class="title" style="color: #FFFFFF">John Lemon’s Haunted Jaunt</div>
       </div>
     </div>
   </body>
